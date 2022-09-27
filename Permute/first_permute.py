@@ -20,6 +20,6 @@ permute(s)
 #     letter = s[i]
 #     front = s[0:i]
 #     back = s[i+1:]
-#     print(letter)
+#     print(letter)#####3
 #     print(front)
 #     print(back)
