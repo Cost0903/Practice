@@ -1,0 +1,211 @@
+SmbiosDump64 version 1.6.0
+Copyright 2012-2021 Dell Technologies.
+Supports SMBIOS spec versions: industry 3.4.0, Dell 3.021
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0700
+	                         Socket designation = "L1 Cache"
+	                              Configuration = 0x0180
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 0: One
+	                             Maximum amount = 0x0060: 96 KB
+	                           Installed amount = 0x0060: 96 KB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 4: Parity
+	                          System cache type = 4: Data
+	                              Associativity = 9: 12-way set associative
+	                           Maximum amount 2 = 0x00000060: 96 KB
+	                         Installed amount 2 = 0x00000060: 96 KB
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0701
+	                         Socket designation = "L1 Cache"
+	                              Configuration = 0x0180
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 0: One
+	                             Maximum amount = 0x0040: 64 KB
+	                           Installed amount = 0x0040: 64 KB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 4: Parity
+	                          System cache type = 3: Instruction
+	                              Associativity = 7: 8-way set associative
+	                           Maximum amount 2 = 0x00000040: 64 KB
+	                         Installed amount 2 = 0x00000040: 64 KB
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0702
+	                         Socket designation = "L2 Cache"
+	                              Configuration = 0x0181
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 1: Two
+	                             Maximum amount = 0x0A00: 2.5 MB
+	                           Installed amount = 0x0A00: 2.5 MB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 5: Single-bit ECC
+	                          System cache type = 5: Unified
+	                              Associativity = 1: Other
+	                           Maximum amount 2 = 0x00000A00: 2.5 MB
+	                         Installed amount 2 = 0x00000A00: 2.5 MB
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0703
+	                         Socket designation = "L3 Cache"
+	                              Configuration = 0x0182
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 2: Three
+	                             Maximum amount = 0x3000: 12 MB
+	                           Installed amount = 0x3000: 12 MB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 6: Multi-bit ECC
+	                          System cache type = 5: Unified
+	                              Associativity = 9: 12-way set associative
+	                           Maximum amount 2 = 0x00003000: 12 MB
+	                         Installed amount 2 = 0x00003000: 12 MB
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0704
+	                         Socket designation = "L1 Cache"
+	                              Configuration = 0x0180
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 0: One
+	                             Maximum amount = 0x0100: 256 KB
+	                           Installed amount = 0x0100: 256 KB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 4: Parity
+	                          System cache type = 4: Data
+	                              Associativity = 7: 8-way set associative
+	                           Maximum amount 2 = 0x00000100: 256 KB
+	                         Installed amount 2 = 0x00000100: 256 KB
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0705
+	                         Socket designation = "L1 Cache"
+	                              Configuration = 0x0180
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 0: One
+	                             Maximum amount = 0x0200: 512 KB
+	                           Installed amount = 0x0200: 512 KB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 4: Parity
+	                          System cache type = 3: Instruction
+	                              Associativity = 7: 8-way set associative
+	                           Maximum amount 2 = 0x00000200: 512 KB
+	                         Installed amount 2 = 0x00000200: 512 KB
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0706
+	                         Socket designation = "L2 Cache"
+	                              Configuration = 0x0181
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 1: Two
+	                             Maximum amount = 0x1000: 4 MB
+	                           Installed amount = 0x1000: 4 MB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 5: Single-bit ECC
+	                          System cache type = 5: Unified
+	                              Associativity = 8: 16-way set associative
+	                           Maximum amount 2 = 0x00001000: 4 MB
+	                         Installed amount 2 = 0x00001000: 4 MB
+
+
+Type 0x07 (7): Cache Information Table
+	                               Fixed length = 27
+	                                     Handle = 0x0707
+	                         Socket designation = "L3 Cache"
+	                              Configuration = 0x0182
+	                                              Reserved (15:10) = 0
+	                                              Operational Mode (9:8) = 1: Write back
+	                                              Boot status (7) = 1: Enabled
+	                                              Location WRT the CPU (6:5) = 0: Internal
+	                                              Reserved (4) = 0
+	                                              Socketed (3) = 0: No
+	                                              Level (2:0) = 2: Three
+	                             Maximum amount = 0x3000: 12 MB
+	                           Installed amount = 0x3000: 12 MB
+	                       Supported SRAM types = 0x0020
+	                                              bit 05: Synchronous
+	                        Installed SRAM type = 0x0020
+	                                              bit 05: Synchronous
+	                                      Speed = 0: Unknown
+	                      Error correction type = 6: Multi-bit ECC
+	                          System cache type = 5: Unified
+	                              Associativity = 9: 12-way set associative
+	                           Maximum amount 2 = 0x00003000: 12 MB
+	                         Installed amount 2 = 0x00003000: 12 MB
