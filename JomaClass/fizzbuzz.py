@@ -25,22 +25,18 @@ def multiply(a, b):
 
 def prime_numbers(n):
     # your code here
-    result = set()
+    counter = 0
     num = 2
     # print(len(result))
-    while len(result) != n:
-        # print(n)
-        # print(num)
+    while counter != n:
+        prime = True
         for i in range(2, num):
-            print(f"i = {i}")
-            print(f"num = {num}")
             if (i != 1 or i != num) and num % i == 0:
-                continue
-            else:
-                result.add(num)
-        print(result)
-                # print(num)
+                prime = False
+        if prime is True:    
+            counter += 1
+            print(num)
         num += 1
     return
 
-prime_numbers(5)
+prime_numbers(7)
